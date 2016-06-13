@@ -1,1 +1,0 @@
-$("#he").text("My projects");
