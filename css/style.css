@@ -1,4 +1,12 @@
 #project-head{
-  font-size: 16px;
-  color: white;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+#home{
+  margin-top: 10%;
+}
+.project{
+  border: 1px solid black;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
