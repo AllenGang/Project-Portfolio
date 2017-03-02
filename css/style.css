@@ -13,8 +13,30 @@
   text-align:center;
 }
 #title{
-  font-size: 48px;
+  font-family: sans-serif;
+  font-style: oblique;
+  font-size: 100px;
+  letter-spacing: -10px;
+  -webkit-animation: colorChange 20s infinite alternate;
 }
+
+@-webkit-keyframes colorChange{
+  0% {
+    color:teal;
+  }
+  50% {
+    color:red;
+  }
+  100% {
+    color: skyblue;
+  }
+}
+
+#summary{
+  font-size: 24px;
+  font-weight: bolder;
+}
+
 h2{
   border: 1px solid black;
 }
@@ -22,6 +44,21 @@ h2{
 div.img img{
   width: 420px;
   height: 400px;
+}
+
+body{
+  -webkit-animation: colorChange2 20s infinite alternate;
+}
+@-webkit-keyframes colorChange2{
+  0% {
+    background: yellow;
+  }
+  50% {
+    background: pink;
+  }
+  100% {
+    background: green:
+  }
 }
 
 #copyright{
